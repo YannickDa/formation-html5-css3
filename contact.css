@@ -22,6 +22,18 @@ form fieldset label {
   vertical-align: top;
 }
 
+@media screen and (max-width: 480px) {
+  form fieldset label {
+    display: block;
+    width: 100%;
+  }
+
+  form fieldset input,
+  form fieldset textarea {
+    width: 100%;
+  }
+}
+
 form fieldset:last-child {
   text-align: right;
 }
