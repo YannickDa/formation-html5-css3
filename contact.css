@@ -1,0 +1,31 @@
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+form {
+  background: #FFF;
+  box-shadow: 0px 0px 35px -12px rgba(0,0,0,0.71);
+  padding: 15px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+form fieldset {
+  border: 0;
+}
+
+form fieldset label {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+form fieldset:last-child {
+  text-align: right;
+}
+
+form textarea {
+  height: 110px;
+}
