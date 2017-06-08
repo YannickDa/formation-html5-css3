@@ -1,3 +1,7 @@
 html, body {
   background: #EFEFEF;
 }
+
+body.index {
+  text-align: center;
+}
